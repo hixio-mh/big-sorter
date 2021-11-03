@@ -33,7 +33,7 @@
         <changelog.version>2.2</changelog.version>
         <coverage.reports.dir>${project.build.directory}/target/coverage-reports</coverage.reports.dir>
         <exec.version>1.6.0</exec.version>
-        <jackson.version>2.11.0</jackson.version>
+        <jackson.version>2.13.0</jackson.version>
     </properties>
 
     <licenses>
@@ -280,7 +280,7 @@
                                     <executable>java</executable>
                                     <arguments>
                                         <argument>-classpath</argument>
-                                        <classpath />
+                                        <classpath/>
                                         <argument>org.openjdk.jmh.Main</argument>
                                         <!-- -h for help -->
                                         <argument>-f</argument>
